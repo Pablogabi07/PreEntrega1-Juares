@@ -1,0 +1,24 @@
+/* src/components/cartwidget.css */
+
+.cart-widget {
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.cart-notification {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background-color: blue;
+  color: white;
+  border-radius: 100%;
+  padding: 4px 8px;
+  font-size: 12px;
+}
+
+.icon {
+  width: 50px;
+  margin-left: 600px;
+}
